@@ -254,13 +254,13 @@ p {
 }
 #fh5co-home .flexslider .fh5co-overlay {
   position: absolute;
-  z-index: 3;
+  z-index: 0;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   opacity: .5;
-  background: #000;
+  
 }
 #fh5co-home .flexslider .flex-control-nav,
 #fh5co-home .flexslider .flex-direction-nav {
@@ -390,21 +390,22 @@ p {
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
-  background: #e6e6e6;
+  background: #91ced3b0;
+  
   width: 100%;
 }
 #fh5co-about .fh5co-2col {
   width: 50%;
 }
 @media screen and (max-width: 1200px) {
-  #fh5co-about .fh5co-2col {
+#fh5co-about .fh5co-2col {
     width: 100%;
   }
 }
 #fh5co-about .fh5co-text {
   padding: 2em 6em;
   text-align: left;
-  background: #130d08 url(../images/wood_1.png) repeat;
+  
 }
 @media screen and (max-width: 1200px) {
   #fh5co-about .fh5co-text {
@@ -439,7 +440,7 @@ p {
 }
 #fh5co-about .fh5co-text p span.firstcharacter {
   float: left;
-  color: #903;
+  color:  #fff;
   font-size: 75px;
   line-height: 60px;
   padding-top: 4px;
@@ -538,7 +539,7 @@ p {
 
 #fh5co-featured {
   padding: 7em 0;
-  background: #130d08 url(../images/wood_1.png) repeat;
+  background: #130d08 url(../images/background_2.png) repeat;
 }
 @media screen and (max-width: 768px) {
   #fh5co-featured {
@@ -555,7 +556,7 @@ p {
   width: 64px;
   position: absolute;
   content: "";
-  background: url(../images/0103-served-plate_64.png) no-repeat;
+  background: url(../images/1.jpg) no-repeat;
   top: 0;
   left: 50%;
   margin-top: -50px;
@@ -761,15 +762,19 @@ p {
 
 #fh5co-menus {
   padding: 7em 0;
+  background: #130d08 url(../images/background_3.png) repeat;
+
 }
 @media screen and (max-width: 768px) {
   #fh5co-menus {
     padding: 5em 0;
+    
   }
 }
 #fh5co-menus .fh5co-heading .heading {
   position: relative;
   padding-top: 30px !important;
+  
 }
 #fh5co-menus .fh5co-heading .heading:before, #fh5co-menus .fh5co-heading .heading::before {
   height: 64px;
@@ -781,9 +786,11 @@ p {
   left: 50%;
   margin-top: -50px;
   margin-left: -32px;
+  
 }
 #fh5co-menus .fh5co-heading .sub-heading {
   color: #a99c92;
+  
 }
 #fh5co-menus .fh5co-food-menu {
   float: left;
