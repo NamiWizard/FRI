@@ -556,14 +556,14 @@ p {
   width: 64px;
   position: absolute;
   content: "";
-  background: url(../images/1.jpg) no-repeat;
+  background: url(../images/0103-served-plate_64.png) no-repeat;
   top: 0;
   left: 50%;
   margin-top: -50px;
   margin-left: -32px;
 }
 #fh5co-featured .fh5co-heading .sub-heading {
-  color: #a99c92;
+  color: #000000;
 }
 #fh5co-featured .fh5co-grid {
   display: -webkit-box;
