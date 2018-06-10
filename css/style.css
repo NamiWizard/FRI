@@ -63,21 +63,21 @@ p {
 }
 
 .btn-primary {
-  background: #fb6e14;
+  background: #BA4957;
   color: #fff;
-  border: 2px solid #fb6e14;
+  border: 2px solid #BA4957;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #f16104 !important;
-  border-color: #f16104 !important;
+  background: #BA4957 !important;
+  border-color: #BA4957 !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #fb6e14;
-  border: 2px solid #fb6e14;
+  color: #8FC31F;
+  border: 2px solid #BA4957;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #fb6e14;
+  background: #BA4957;
   color: #fff;
 }
 
@@ -390,8 +390,7 @@ p {
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
-  background: #91ced3b0;
-  
+  background:#78D5D7;
   width: 100%;
 }
 #fh5co-about .fh5co-2col {
@@ -417,7 +416,7 @@ p {
 }
 #fh5co-about .fh5co-text .heading {
   margin-bottom: 30px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-style: italic;
   font-weight: 300;
   position: relative;
@@ -431,12 +430,12 @@ p {
   width: 40px;
   height: 2px;
   left: 50%;
-  background: #fb6e14;
+  background: #8FC31F;
   margin-left: -20px;
 }
 #fh5co-about .fh5co-text p {
   line-height: 2;
-  color: #a99c92;
+  color: grey;
 }
 #fh5co-about .fh5co-text p span.firstcharacter {
   float: left;
@@ -449,7 +448,7 @@ p {
   font-style: italic;
   top: -20px;
   position: relative;
-  color: #fff;
+  color:#fff;
   font-family: "Playfair Display", serif;
 }
 #fh5co-about .fh5co-bg {
@@ -539,7 +538,7 @@ p {
 
 #fh5co-featured {
   padding: 7em 0;
-  background: #130d08 url(../images/background_2.png) repeat;
+  background:#78D5D7 repeat;
 }
 @media screen and (max-width: 768px) {
   #fh5co-featured {
@@ -762,7 +761,7 @@ p {
 
 #fh5co-menus {
   padding: 7em 0;
-  background: #130d08 url(../images/background_3.png) repeat;
+  background:#78D5D7 repeat;
 
 }
 @media screen and (max-width: 768px) {
@@ -908,6 +907,7 @@ p {
 #fh5co-events > .container {
   z-index: 10;
   position: relative;
+
 }
 #fh5co-events .fh5co-heading .heading {
   position: relative;
@@ -1360,5 +1360,6 @@ p {
 .row-padded {
   padding-bottom: 40px;
 }
+
 
 /*# sourceMappingURL=style.css.map */
